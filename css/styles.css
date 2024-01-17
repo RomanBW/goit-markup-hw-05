@@ -599,10 +599,9 @@ span {
 }
 
 .modal-close:hover,
-.modal-close:focus {
+.modal-close:focus .modal-icon {
   background-color: #404bbf;
-  border-color: #404bbf;
-  fill: #ffffff;
+  border: none;
 }
 .modal-icon {
   fill: #2e2f42;
@@ -611,6 +610,10 @@ span {
   transform: translate(-50%, -50%);
   position: absolute;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-icon:hover,
+.modal-icon:focus {
+  fill: #ffffff;
 }
 
 .modal-title {
@@ -652,4 +655,10 @@ span {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
