@@ -601,7 +601,8 @@ span {
 .modal-close:hover,
 .modal-close:focus {
   background-color: #404bbf;
-  border: none;
+  border-color: #404bbf;
+  fill: #ffffff;
 }
 .modal-icon {
   fill: #2e2f42;
