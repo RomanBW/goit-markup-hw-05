@@ -701,12 +701,11 @@ span {
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-align-items: center;
-gap: 8px;
+ 
 }
 
 .checkbox-privacy {
+  left: 8px;
   border-radius: 2px;
   width: 16px;
   height: 16px;
@@ -728,6 +727,7 @@ input[type="checkbox"]:checked + label span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  
 }
 .lable-a {
   color: #4d5ae5;
