@@ -704,7 +704,7 @@ span {
  
 }
 
-.checkbox-privacy {
+.checkbox-span {
   border-radius: 2px;
   width: 16px;
   height: 16px;
@@ -728,7 +728,7 @@ input[type="checkbox"]:checked + label span {
   fill: #f4f4fd;
   
 }
-.lable {
+.lable-policy {
   color: #4d5ae5;
   font-size: 12px;
   line-height: 16px;
