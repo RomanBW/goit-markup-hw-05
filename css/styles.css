@@ -551,6 +551,50 @@ span {
   fill: #f4f4fd;
 }
 
+
+.footer-subscribe {
+ 
+  margin-left: auto;
+}
+
+.subscribe-text {
+  color:  #FFF;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.mail-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+border: 1px solid  #FFF;
+background-color: transparent;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+padding-left: 16px;
+color: #ffffff;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.E-mail {
+  color: #ffffff;
+}
+
+
+/**!=========================================================*/
+
+/**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/**------------------------beckdrop----------------------------*/
+
+
 .beckdrop {
   width: 100%;
   height: 100%;
@@ -560,7 +604,15 @@ span {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    opacity: 0; 
+    visability: hidden; 
+    display: none;
+  }
+
+  .beckdrop:hover {
+    opacity: 1;
+  }
+
 .modal {
   padding: 72px 24px 24px 24px;
   width: 408px;
@@ -633,6 +685,7 @@ span {
   letter-spacing: 0.04em;
   margin-bottom: 4px;
   display: block;
+
 }
 
 .input-text {
@@ -738,6 +791,7 @@ input[type="checkbox"]:checked + label span {
 
 .button-send {
 display: block;
+margin:auto;
 min-width: 169px;
 height: 56px;
 font-family: "Roboto", sans-serif;
@@ -754,4 +808,3 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
-
