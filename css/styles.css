@@ -604,14 +604,10 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    opacity: 0; 
-    visability: hidden; 
-    display: none;
+    
   }
 
-  .beckdrop:hover {
-    opacity: 1;
-  }
+  
 
 .modal {
   padding: 72px 24px 24px 24px;
